@@ -325,6 +325,7 @@ body{
     }
 
     .footer .copy{
+        min-height: 50px;
         margin: 6em auto;
         font-size: .8em;
     }
