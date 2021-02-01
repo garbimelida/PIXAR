@@ -69,7 +69,7 @@ body{
 
 
  /* logo pixar  */
- .header .centrado .logo{
+ .header .logo{
     width: 100%;
     max-width: 180px;
     /* min-height: 50px; */
@@ -81,7 +81,7 @@ body{
 
 /* menu */
 
- .header .centrado .nav{
+ .header .nav{
     width: calc( 90% - 150px );
     /* min-height: 50px; */
     /* background-color: pink; */
@@ -93,7 +93,7 @@ body{
     align-content: initial;
  }
 
- .header .centrado .nav .ul{
+ .header  .ul{
     /* min-height: 50px; */
     /* background-color: pink; */
     
@@ -104,7 +104,7 @@ body{
     align-content: initial;
  }
 
- .header .centrado .nav .ul .li{
+ .header .li{
      /* min-height: 50px; */
      /* background-color: khaki; */
      margin: 0 0 0 20px;
@@ -149,7 +149,7 @@ body{
      align-content: initial;
  }
 
-.main .soul .logo{
+.main .logo{
     width: 90%;
     max-width: 560px;
     min-height: 50px;
@@ -169,7 +169,7 @@ body{
     /* background-color: brown; */
     padding: 10vh 0;
 }
-.main .columnas .centrado{
+.main .centrado{
     width: 80%;
     /* height: 200px; */
     /* background-color: burlywood; */
@@ -181,19 +181,19 @@ body{
     align-items: center;
     align-content: initial;
 }
-.main .columnas .centrado .columna{
+.main .columna{
     width: calc( 100% / 3 - 40px);
     /* height: 200px; */
     /* background-color: chocolate; */
 }
-.main .columnas .centrado .columna .imagen{
+.main .imagen{
     width: 100%;
     min-height: 200px;
     /* background-color: coral; */
     margin: 0 0 40px 0;
    
 }
-.main .columnas .centrado .columna .titular{
+.main .titular{
     width: 100%;
     /* background-color: darkcyan; */
     font-weight: 600;
@@ -226,14 +226,14 @@ body{
     align-items: center;
     align-content: initial;
 }
-.footer .rrss .red-social{
+.footer .red-social{
     /* width: calc( 100% / 4 ); */
     min-height: 50px;
     /* background-color: lime; */
     margin: 0 10px;
 }
 
-.footer .rrss .red-social .fab{
+.footer .fab{
     font-size: 2em;
 }
 
@@ -252,7 +252,7 @@ body{
     align-content: center;
 
 }
-.footer .links .enlaces{
+.footer .enlaces{
     min-height: 20px;
     /* background-color: olive; */
     margin: 0 10px;
@@ -285,7 +285,7 @@ body{
 @media screen and (max-width: 960px){
 
 /* cabecera */
-    .header .centrado .nav .ul .li{
+    .header .li{
         display: none;
     }
 
@@ -302,14 +302,16 @@ body{
 
 
 /* columnas */
-    .main .columnas .centrado .columna{
+
+    .main .columnas{
+    padding: 10vh 0 4vh;
+    }
+    .main .columna{
         width: 100%;
         margin: 0 0 3em;
     }
 
-     .main .columnas{
-        padding: 10vh 0 4vh;
-    }
+
 
 
 /* pie */
@@ -317,7 +319,7 @@ body{
         margin: 5em auto;
     }
 
-    .footer .links .enlaces{
+    .footer .enlaces{
         margin: .4em 2em;
         font-size: .8em;
     }
@@ -326,7 +328,7 @@ body{
         margin: 6em auto;
         font-size: .8em;
     }
-}
+
 
 /* MODO OSCURO */
 
@@ -337,7 +339,7 @@ body{
    }
 
 
-   .header .centrado .logo {
+   .header .logo {
         filter: invert(100%);
    }
 
