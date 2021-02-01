@@ -8,6 +8,8 @@
 :root{
     --blanco: white;
     --negro: black;
+    --gris: grey;
+
 }
 
 a{
@@ -119,12 +121,14 @@ body{
      
  }
 
-
  /* barras */
  .header .fa-bars{
     display: none;
 }
 
+.header .li a:hover{
+    color:var(--gris)
+}
 
 
 
@@ -243,6 +247,10 @@ body{
 .footer .fab{
     font-size: 2em;
 }
+.footer .red-social a:hover{
+    font-size: 3em;
+    padding: auto;
+}
 
 
 /* links */
@@ -267,6 +275,9 @@ body{
 
     border-bottom: 1px solid black ;
     
+}
+.footer .enlaces a:hover{
+    color:var(--gris)
 }
 
 
