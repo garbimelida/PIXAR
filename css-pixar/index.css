@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --blanco: white;
+    --negro: black;
+}
+
 a{
     display: block;
     color: inherit;
@@ -28,8 +33,8 @@ img{
     object-fit: cover;
 }
 ::selection{
-    background-color: black;
-    color:white;
+    background-color: var(--negro);
+    color: var(--blanco);
 }
 html{
     scroll-behavior: smooth;
@@ -37,7 +42,7 @@ html{
 body{
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: var(--negro);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -335,8 +340,8 @@ body{
 
 @media (prefers-color-scheme: dark) {
     body {
-     background-color: black;
-     color:white;
+     background-color:var(--negro);
+     color: var(--blanco);
    }
 
 
