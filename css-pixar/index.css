@@ -336,18 +336,24 @@ body{
 
 
 /* pie */
-    .footer .links{
-        margin: 9em auto;
+    .footer{
+        margin: 1em 0;
     }
+
+    .footer .red-social{
+        margin: 1.5em 10px ;
+    }
+    
 
     .footer .links .enlaces{
         margin: 1em;
         font-size: .8em;
+        border: none;
     }
 
     .footer .copy{
         min-height: 50px;
-        padding: 3em;
+        padding: 4em;
         font-size: .8em;
     }
 }
