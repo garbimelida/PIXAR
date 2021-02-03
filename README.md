@@ -10,7 +10,7 @@
 Garbiñe Mélida 
 
 ## Tiempo ⏰
-Unas 5 horas 
+Indefinido (se ha ido cambiando segun dabamos materia en clase y correciones) 
 
 ## Enlaces 🔗
 Pagina Original de Pixar: https://www.pixar.com/
