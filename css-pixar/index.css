@@ -255,7 +255,7 @@ body{
 
 /* links */
 .footer .links{
-    width: 70%;
+    width: 80%%;
     height: 50px;
     /* background-color: mediumspringgreen; */
     margin: 20px auto;
@@ -283,7 +283,7 @@ body{
 
 /* copy */
 .footer .copy{
-    width: 50%;
+    width: 85%;
     min-height: 50px;
     /* background-color: lawngreen; */
     margin: auto;
@@ -332,17 +332,17 @@ body{
 
 /* pie */
     .footer .links{
-        margin: 5em auto;
+        margin: 9em auto;
     }
 
     .footer .links .enlaces{
-        margin: .4em 2em;
+        margin: .7em 3em;
         font-size: .8em;
     }
 
     .footer .copy{
         min-height: 50px;
-        margin: 6em auto;
+        margin: 3em;
         font-size: .8em;
     }
 }
