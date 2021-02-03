@@ -48,7 +48,7 @@ body{
     color: var(--negro);
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 0.25em;
 } 
 
 
@@ -61,7 +61,7 @@ body{
     width:100%;
     /* min-height: 100px; */
     /* background-color: red */
-    padding: 20px 0; 
+    padding: 1.25em 0; 
  }
 
  .header .centrado{
@@ -81,7 +81,7 @@ body{
  /* logo pixar  */
  .header .logo{
     width: 100%;
-    max-width: 180px;
+    max-width: 11.25em;
     /* min-height: 50px; */
      /* background-color: salmon; */
      
@@ -92,7 +92,7 @@ body{
 /* menu */
 
  .header .nav{
-    width: calc( 90% - 150px );
+    width: calc( 90% - 9.37em );
     /* min-height: 50px; */
     /* background-color: pink; */
     
@@ -117,7 +117,7 @@ body{
  .header .li{
      /* min-height: 50px; */
      /* background-color: khaki; */
-     margin: 0 0 0 20px;
+     margin: 0 0 0 1.25em;
      font-weight: 600;
      
  }
@@ -146,7 +146,7 @@ body{
 .main .soul{
      width: 100% ;
      min-height: 100vh;
-     padding: 40px;
+     padding: 2.5em;
      /* background-color: lightblue; */
      background-image: url( ../img/fondosoul.jpg);
      background-position: center;
@@ -163,8 +163,8 @@ body{
 
 .main .logo{
     width: 90%;
-    max-width: 560px;
-    min-height: 50px;
+    max-width: 35em;
+    min-height: 3.12em;
     /* background-color: blue; */
  }
 
@@ -194,15 +194,15 @@ body{
     align-content: initial;
 }
 .main .columna{
-    width: calc( 100% / 3 - 40px);
+    width: calc( 100% / 3 - 2.5em);
     /* height: 200px; */
     /* background-color: chocolate; */
 }
 .main .columna .imagen{
     width: 100%;
-    min-height: 200px;
+    min-height: 12.5em;
     /* background-color: coral; */
-    margin: 0 0 40px 0;
+    margin: 0 0 2.5em 0;
    
 }
 .main .columna .titular{
@@ -220,7 +220,7 @@ body{
 
 .footer{
     width: 100%;
-    min-height: 200px;
+    min-height: 12.5em;
     /* background-color: darkcyan; */
     margin: 5em 0;
     font-size: .8em;
@@ -230,7 +230,7 @@ body{
 /* redes sociales */
 .footer .rrss{
     width: 100%;
-    min-height: 50px;
+    min-height: 3.125em;
     /* background-color: lightgreen; */
 
     display: flex;
@@ -241,9 +241,9 @@ body{
 }
 .footer .red-social{
     /* width: calc( 100% / 4 ); */
-    min-height: 50px;
+    min-height: 3em;
     /* background-color: lime; */
-    margin: 0 10px;
+    margin: 0 .6em;
 }
 
 .footer .fab{
@@ -258,7 +258,7 @@ body{
 /* links */
 .footer .links{
     width: 50%;
-    height: 50px;
+    height: 3em;
     /* background-color: mediumspringgreen; */
     margin: 90px auto;
 
@@ -270,10 +270,10 @@ body{
 
 }
 .footer .enlaces{
-    min-height: 20px;
+    min-height: 1.25em;
     /* background-color: olive; */
-    margin: 7px 12px;
-    font-size: .8em;
+    margin: .4em .8em;
+    font-size: .9em;
 
     border-bottom: 1px solid black ;
     
@@ -286,9 +286,9 @@ body{
 /* copy */
 .footer .copy{
     width: 85%;
-    min-height: 50px;
+    min-height: 3em;
     /* background-color: lawngreen; */
-    margin: 90px auto;
+    margin: 5.6em auto;
 
     font-size: .8em;
     
@@ -341,7 +341,7 @@ body{
     }
 
     .footer .red-social{
-        margin: 1.5em 10px ;
+        margin: 1.5em .6em ;
     }
     
 
@@ -352,7 +352,7 @@ body{
     }
 
     .footer .copy{
-        min-height: 50px;
+        min-height: 3em;
         padding: 4em;
         font-size: .8em;
     }
