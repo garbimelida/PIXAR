@@ -21,6 +21,7 @@ a{
 p a{
     display: inline-flex;
 }
+
 li{
     list-style-type: none;
 }
@@ -221,6 +222,7 @@ body{
     width: 100%;
     min-height: 200px;
     /* background-color: darkcyan; */
+    margin: 5em 0;
     font-size: .8em;
 }
 
@@ -258,7 +260,7 @@ body{
     width: 50%;
     height: 50px;
     /* background-color: mediumspringgreen; */
-    margin: 20px auto;
+    margin: 90px auto;
 
     display:flex;
     flex-flow: row wrap;
@@ -270,7 +272,8 @@ body{
 .footer .enlaces{
     min-height: 20px;
     /* background-color: olive; */
-    margin: 0 12px;
+    margin: 7px 12px;
+    font-size: .8em;
 
     border-bottom: 1px solid black ;
     
@@ -285,7 +288,9 @@ body{
     width: 85%;
     min-height: 50px;
     /* background-color: lawngreen; */
-    margin: 50px auto;
+    margin: 90px auto;
+
+    font-size: .8em;
     
 
 }
@@ -336,7 +341,7 @@ body{
     }
 
     .footer .links .enlaces{
-        margin: .7em 3em;
+        margin: 1em;
         font-size: .8em;
     }
 
